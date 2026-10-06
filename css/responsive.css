@@ -1,0 +1,292 @@
+/*/* ================================================== */
+/* Responsive - Mobile (max-width: 768px) */
+/* ================================================== */
+@media (max-width: 768px) {
+    body {
+        padding-top: 64px;
+    }
+
+    nav {
+        padding: 14px 24px;
+    }
+
+    .logo a {
+        font-size: 26px;
+    }
+
+    .navLinks {
+        display: none;
+        position: fixed;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 64px);
+        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 40px 24px;
+        overflow-y: auto;
+    }
+
+    .navLinks.active {
+        display: flex;
+    }
+
+    .navLinks a {
+        font-size: 18px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .searchBox {
+        width: calc(100% - 48px);
+        right: 24px;
+        top: 64px;
+    }
+
+    .heroSection {
+        height: 450px;
+    }
+
+    .next,
+    .prev {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .next {
+        right: 15px;
+    }
+
+    .prev {
+        left: 15px;
+    }
+
+    .categories {
+        padding: 40px 24px 20px;
+    }
+
+    .categories h2,
+    .featuredProducts h2 {
+        font-size: 26px;
+    }
+
+    .categoryCards {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .categoryCard {
+        width: calc(50% - 6px);
+        height: 70px;
+    }
+
+    .featuredProducts {
+        padding: 20px 24px 40px;
+    }
+
+    .productGrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .shopHeader + .categoryNav + .productGrid {
+        padding: 0 24px 40px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .bannerText {
+        width: 100%;
+        padding: 40px 24px;
+    }
+
+    .bannerText h2 {
+        font-size: 28px;
+    }
+
+    .bannerImg {
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsLetter {
+        padding: 40px 24px;
+    }
+
+    .newsLetterText h2 {
+        font-size: 28px;
+    }
+
+    .newsLetter form {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .newsLetter input,
+    .newsLetter button {
+        width: 100%;
+        height: 48px;
+    }
+
+    footer {
+        padding: 40px 24px 20px;
+    }
+
+    .footerContent {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .cartHeader {
+        margin-top: 20px;
+    }
+
+    .cartHeader h1 {
+        font-size: 28px;
+    }
+
+    .cart_container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .productImg {
+        width: 80px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .description {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .quantity {
+        justify-content: center;
+    }
+
+    .totalPrice {
+        text-align: center;
+    }
+
+    .delete button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .total p {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .cartActions {
+        justify-content: center;
+    }
+
+    .cartActions a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* About Page */
+    .aboutHero {
+        padding: 80px 24px;
+    }
+
+    .aboutHero::before {
+        font-size: 120px;
+        letter-spacing: 15px;
+    }
+
+    .aboutHero h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+
+    .aboutContent {
+        padding: 60px 24px;
+    }
+
+    .aboutText h2 {
+        font-size: 26px;
+    }
+
+    .aboutValues {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        padding-top: 40px;
+    }
+
+    /* Contact Page */
+    .contactHero {
+        padding: 80px 24px;
+    }
+
+    .contactHero::before {
+        font-size: 100px;
+        letter-spacing: 15px;
+    }
+
+    .contactHero h1 {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+
+    .contactContainer {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 60px 24px;
+    }
+
+    .contactForm {
+        padding: 32px 24px;
+    }
+
+    .contactForm h2 {
+        font-size: 24px;
+    }
+}
+
+/* ================================================== */
+/* Responsive - Extra Small (max-width: 480px) */
+/* ================================================== */
+@media (max-width: 480px) {
+    .logo a {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .heroSection {
+        height: 380px;
+    }
+
+    .categoryCard {
+        width: 100%;
+    }
+
+    .bannerText h2,
+    .newsLetterText h2 {
+        font-size: 24px;
+    }
+
+    .aboutHero h1,
+    .contactHero h1 {
+        font-size: 28px;
+    }
+
+    .aboutHero::before,
+    .contactHero::before {
+        font-size: 80px;
+        letter-spacing: 10px;
+    }
+}*/
